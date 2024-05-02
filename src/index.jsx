@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Example from './components/example.jsx';
+import Example from './components/Example.jsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
