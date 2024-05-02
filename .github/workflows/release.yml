@@ -10,3 +10,4 @@ jobs:
     uses: alvarogarciapiz/workflows/.github/workflows/release-electron.yml@main
     with:
       VERSION: ${{ github.event.release.tag_name }}
+    secrets: inherit
