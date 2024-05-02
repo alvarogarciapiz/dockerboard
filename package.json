@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack --config webpack.config.js && electron .",
     "build": "webpack",
-    "package": "npx @electron/packager . dockerboard --icon=./public/appicon_macos.icns --overwrite -out=dist"
+    "package": "npx @electron/packager . dockerboard --icon=./public/appicon_macos.icns --overwrite --out=dist"
   },
   "keywords": [],
   "author": "",
