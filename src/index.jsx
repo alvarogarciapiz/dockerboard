@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Example from './components/Example.jsx';
+import Dashboard from './components/Dashboard.jsx';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Example />
+    <Dashboard />
   </React.StrictMode>,
 );
