@@ -24,8 +24,10 @@ html, body {
 }
 
 .dashboardSidebar {
+  position: relative;
   max-width: 240px;
   width: 100%;
+  height: 100vh;
   background: linear-gradient(to bottom, #1F212F, #0B0C11);
   overflow: auto;
   border-right: 1px solid #262A3A;
@@ -48,11 +50,13 @@ html, body {
   display: flex;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
+  margin-top: 0vh;
 }
 
 .dashboardSidebar .logo {
-  margin-top: 4vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
   width: 100%;
   height: auto;
 }
@@ -78,7 +82,12 @@ html, body {
 }
 
 .dashboardSidebar nav a img {
-  width: 32px;
-  height: 32px;
+  width: 33px;
+  height: 33px;
   margin-right: 14px;
+}
+
+.dashboardSidebar .settingsLink {
+  position: absolute;
+  bottom: 3vh;
 }

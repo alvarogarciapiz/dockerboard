@@ -16,6 +16,8 @@ function createWindow () {
       nodeIntegration: true,
       contextIsolation: false,
     },
+    titleBarStyle: 'hiddenInset', // Añade esta línea
+    backgroundColor: '#2e2c29'
   });
 
   mainWindow.loadURL(
