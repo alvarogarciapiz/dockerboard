@@ -9,9 +9,9 @@ function createWindow () {
     width: 1500,
     height: 1000,
     minHeight: 800,
-    minWidth: 1000,
-    maxHeight: 1000,
-    maxWidth: 1500,
+    minWidth: 1200,
+    maxHeight: 1200,
+    maxWidth: 1600,
     webPreferences: {
       nodeIntegration: true,
       contextIsolation: false,

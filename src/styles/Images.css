@@ -1,0 +1,162 @@
+.images {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 5vh 5vw;
+}
+
+/* Sección Título y descripción */
+.part1 {
+  height: 10vh;
+  border-bottom: 1px solid #262A3A;
+}
+
+.imagesDescription {
+  font-size: 1em;
+  font-weight: 300;
+  color: #858a94;
+  margin-top: 1.5vh;
+}
+
+.imagesTitle {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+/* Sección 2 image info */
+.part2 {
+  height: 18vh;
+  min-height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #2a2a37;
+  background-image: radial-gradient(circle at top, #10101A, #20202d);
+  border-radius: 10px;
+  padding: 15px 25px;
+  margin: 10px;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  width: 20vw;
+}
+
+.titleBox {
+  color: gray;
+  font-weight: 200;
+  padding-bottom: 1vh;
+}
+
+.numberBox {
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.small-numberBox {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #3b84e3;
+  padding: 5px 10px;
+  border-radius: 16px;
+  border: 1px solid #244774;
+  background-color: #3b84e310;
+}
+
+/* Sección 3 crear imagen */
+.part3 {
+  height: 12vh;
+}
+
+.createImageSpace {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #2a2a37;
+  background-image: radial-gradient(circle at top, #10101A, #20202d);
+  border-radius: 10px;
+  width: 98%;
+  padding: 20px 20px;
+  margin-left: 1%;
+}
+
+.createImageTitle {
+  color: #858a94;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.createImageContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.createImageText {
+  flex-grow: 1;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #101018;
+  color: #858a94;
+  width: 100%;
+  height: 30px;
+  font-weight: 300;
+  padding-left: 4px;
+  font-size: 1em;
+}
+
+.createImageButton {
+  padding: 5px 12px;
+  border: 1px solid #244774;
+  border-radius: 10px;
+  background-color: #3b84e310;
+  color: #3b84e3;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.createImageMessage{
+  color: #858a94;
+  font-weight: 300;
+  padding-top: 12px;
+  font-size: 0.9em;
+}
+
+/* Sección imágenes */
+.part4 {
+  height: calc(100vh - 40vh);
+  overflow-y: auto; /* Scroll si el contenido excede la altura */
+}
+
+
+.imageContainerImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #2a2a37;
+  background-image: radial-gradient(circle at top, #10101A, #20202d);
+  border-radius: 10px;
+  padding: 15px 25px;
+  margin: 10px;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  width: 20vw;
+}
+
+.idImage,
+.nameImage,
+.tagImage,
+.createdImage,
+.sizeImage,
+.virtualSizeImage,
+.labelsImage {
+  color: #858a94;
+  font-weight: 200;
+  padding-bottom: 1vh;
+}
